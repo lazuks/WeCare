@@ -1,0 +1,97 @@
+body{
+    background-color: #1C2841;
+  }
+
+  
+  .avaragetalk{
+    grid-area: averagetalk;
+    background-color: #152335;
+    grid-gap: 10px;
+    justify-self: stretch;
+    align-self: stretch;
+    border-style: solid;
+    color: #9099a8;
+  }
+  
+  .avaragetalk h1 {
+      color: #00a2ff;
+  }
+
+  .avaragetalk h4 {
+      color: #919191;
+  }
+
+   .avaragewait{
+    grid-area: averagewait;
+    grid-gap: 5px;
+    background-color: #152335;
+    text-align:  center;
+    justify-self: stretch;
+    align-self: stretch;
+    border-style: solid;
+    color: #9099a8;
+
+  }
+
+  .avaragewait h1 {
+      color: #ff7e14;
+  }
+
+  .avaragewait h4 {
+      color: #c9c9c9;
+  }
+  
+  .longestwait{
+     grid-area: longestwait;
+      background-color: #152335;
+      border-style: solid;
+      justify-self: stretch;
+      align-self: stretch;
+      color: #9099a8;
+      grid-gap: 10px;
+
+      
+  }
+
+  .longestwait h4 {
+      color: #c9c9c9;
+  }
+
+  .longestwait h1 {
+      color: #ffa154;
+      
+  }
+  
+  h1 {
+      text-align: center;
+      color: silver;
+      font-size: 3em;
+      margin-top: 0em;
+      margin-right: 0.5em;
+      margin-left: 0.5em;
+      margin-bottom: 0.5em;
+  }
+
+  h4 {
+      text-align: center;
+      margin-bottom: 0em;
+  }
+
+
+  img {
+      float: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+  .talk{
+    display: grid;
+    background-color: #1C2841;
+    grid-gap: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-width: 2px 2px 2px 2px;
+    grid-template-areas:
+     ". averagetalk averagetalk ."
+     ". averagewait longestwait .";
+  }

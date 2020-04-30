@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #18183d;
+  }
+  
+  .navbar a {
+    float: left;
+    color: #c7c7c9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a.active {
+    background-color: #18183d;
+    color: #c7c7c9;
+
+}
+
+
+.navbar a.datee {
+    justify-self: left;
+    align-self: left;
+}
+

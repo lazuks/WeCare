@@ -1,0 +1,47 @@
+  
+  .leftbutton {
+    border-radius: 100%;
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: silver;
+
+}
+  .environmentbutton {
+    border-radius: 100%;
+    background-color: rgb(251, 255, 0); /* yellow */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: silver;
+}
+  .rightbutton {
+    border-radius: 100%;
+    background-color: green; /* yellow */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: silver;
+}
+
+
+
